@@ -1,0 +1,12 @@
+| Feature               | Max Heap / Priority Queue         | Heap Sort             | Quick Sort         |
+|---                    |---                                |---                    |---                 |
+| Main purpose          | Priority management               | Sorting               | Sorting            |
+| Highest value         | **Yes**                           | No                    | No                 |
+| Insertion             | `O(log n)`                        | Not designed for this | Not designed for this |
+| Maximum access        | **`O(1)`**                        | Not directly          | Not directly       |
+| Sorting               | No                                | Yes                   | Yes |
+| Average time          | `O(log n)` insertion              | `O(n log n)`          | `O(n log n)`       |
+| Worst-case time       | `O(log n)` insertion              | `O(n log n)`          | `O(n²)`            |
+| Heap required         | Yes                               | Yes                   | No                 |
+| Suitable for continuously
+ changing priority data | **Yes**                           | No                    | No                 |

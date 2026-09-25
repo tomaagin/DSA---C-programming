@@ -1,0 +1,15 @@
+| Step |                                   | Array |
+|---|---|---|
+| Max Heap |                               `90 72 85 45 65 50 30` |
+| After removing 90 |                      `85 72 50 45 65 30 90` |
+| After removing 85 |                      `72 65 50 45 30 85 90` |
+| After removing 72 |                      `65 45 50 30 72 85 90` |
+| After removing 65 |                      `50 45 30 65 72 85 90` |
+| After removing 50 |                      `45 30 50 65 72 85 90` |
+| After removing 45 |                      `30 45 50 65 72 85 90` |
+
+
+
+FINAL OUTPUT
+
+30 45 50 65 72 85 90

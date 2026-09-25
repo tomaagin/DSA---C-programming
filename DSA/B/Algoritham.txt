@@ -1,0 +1,8 @@
+1. Heap Sort Algorithm
+    1. Take the given array.
+    2. Build a Max Heap from the array.
+    3. The largest element will be at the root.
+    4. Swap the root with the last element.
+    5. Reduce the heap size by one.
+    6. Heapify the remaining elements.
+    7. Repeat until all elements are sorted.

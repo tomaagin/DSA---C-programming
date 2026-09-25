@@ -1,0 +1,18 @@
+| Operation / Algorithm         | Best              | Average               | Worst               |
+|-------------------------------|-------------------|-----------------------|---------------------|
+| Max Heap insertion            | `O(log n)`        | `O(log n)`            | `O(log n)`          |
+| Access maximum in Max Heap    | `O(1)`            | `O(1)`                | `O(1)`              |
+| Heap Sort                     | `O(n log n)`      | `O(n log n)`          | `O(n log n)`        |
+| Quick Sort                    | `O(n log n)`      | `O(n log n)`          | `O(n²)`             |
+
+
+
+
+Space Complexity
+
+| Algorithm               | Space                 |
+|-------------------------|-----------------------|
+| Max Heap                | `O(n)`                |
+| Heap Sort               | `O(1)`                |
+| Quick Sort              | `O(log n)` average  |
+| Quick Sort worst case   | `O(n)`                |

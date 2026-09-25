@@ -1,0 +1,17 @@
+The final Max Heap is:
+
+          90
+        /    \
+      72      85
+     /  \    /  \
+   45   65  30   50
+
+
+Number of nodes: n = 7
+
+Height:
+
+h = floor(log₂(7)) = 2
+The heap is a complete binary tree.
+
+

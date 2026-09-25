@@ -1,0 +1,8 @@
+1. Algorithm
+    1. Start with an empty Max Heap.
+    2. Insert the new patient severity score at the end of the heap.
+    3. Compare the inserted value with its parent.
+    4. If the inserted value is greater than its parent, swap them.
+    5. Continue moving the value upward until the Max Heap property is restored.
+    6. Repeat for all patient severity scores.
+    7. Display the heap after every insertion.

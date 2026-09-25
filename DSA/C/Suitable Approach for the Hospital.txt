@@ -1,0 +1,28 @@
+The hospital continuously receives new patients and needs to treat
+ the highest-severity patient immediately.
+
+A Max Heap-based Priority Queue is suitable for this requirement.
+For example:
+Max Heap:
+
+          90
+        /    \
+      72      85
+     /  \    /  \
+   45   65  30   50
+
+The highest-priority patient, 90, is always at the root.
+When a new patient arrives, their severity score can be inserted in:
+
+`O(log n)`
+
+The highest-priority patient can be accessed in:
+
+`O(1)`
+
+When the highest-priority patient is treated and removed, the heap can be restored in:
+
+`O(log n)`
+
+Therefore, the Max Heap Priority Queue is appropriate for continuously inserting
+ patients while maintaining immediate access to the highest-priority patient.

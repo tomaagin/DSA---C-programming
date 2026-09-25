@@ -1,0 +1,9 @@
+Initial Array
+
+45 72 30 90 65 50 85
+
+
+
+Final Output
+
+30 45 50 65 72 85 90
